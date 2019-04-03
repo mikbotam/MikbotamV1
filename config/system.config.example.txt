@@ -1,0 +1,14 @@
+<?php
+
+require_once 'medoo.php';
+
+//Config database 
+
+$mikbotam = new medoo([
+    'database_type' => 'mysql',   
+    'database_name' => 'mysaldo',  //nama database anda
+    'server' => 'localhost',  	 //sever
+    'username' => 'root',  		//username
+    'password' => 'admin12345', //password
+    'charset' => 'utf8' 		
+]);
